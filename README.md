@@ -150,13 +150,16 @@ spd/
      print("Path to model files:", path)
    
 2.新增支持九类坐姿检测与分类，具体类别如下：
-![demo](pngs/new-classes.png)
-模型效果如下：
-  - 训练结果
-  - ![demo](pngs/new-res.png)
-  - 训练损失曲线
-  - ![demo](pngs/new-loss.png)
-  - F1曲线
-  - ![demo](pngs/new-F1_curve.png)
-  - PR曲线
-  - ![demo](pngs/new-PR_curve.png)
+  - ![demo](pngs/new-classes.png)
+    - 新增1：头部左倾
+    - 新增2：头部右倾
+    - 新增8：头部前倾
+ - 模型效果如下：
+ - 训练结果
+ - ![demo](pngs/new-res.png)
+ - 训练损失曲线
+ - ![demo](pngs/new-loss.png)
+ - F1曲线
+ - ![demo](pngs/new-F1_curve.png)
+ - PR曲线
+ - ![demo](pngs/new-PR_curve.png)
