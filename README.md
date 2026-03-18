@@ -122,8 +122,8 @@ spd/
 本项目采用 [MIT License](LICENSE)。
 
 ## 致谢
-感谢开源社区提供的 MediaPipe 和 YOLOv8 模型，它们为本项目的实施提供了很大的帮助。
-感谢团队合作者[杨刘军](https://github.com/Future-Elite)和[邹杰](https://github.com/Ezequiel041223)对项目的巨大贡献，也感谢所有关注和支持本项目的用户！
+感谢开源社区提供的 MediaPipe 和 YOLOv11 模型，它们为本项目的实施提供了很大的帮助。
+感谢团队合作者[杨刘军](https://github.com/Future-Elite)，[邹杰](https://github.com/Ezequiel041223)和[夏文翰](https://github.com/xwh213)对项目的巨大贡献，也感谢所有关注和支持本项目的用户！
 本项目灵感来自于人工智能领域的坐姿矫正技术研究，旨在提升用户的健康坐姿意识。
 更多细节将会随着项目的迭代更新，感谢您的关注与支持！
 
@@ -148,3 +148,15 @@ spd/
      path = kagglehub.model_download("xiaokonglong80/yolov11-msca/pyTorch/default")
     
      print("Path to model files:", path)
+   
+2.新增支持九类坐姿检测与分类，具体类别如下：
+![demo](pngs/new-classes.png)
+模型效果如下：
+  - 训练结果
+  - ![demo](pngs/new-res.png)
+  - 训练损失曲线
+  - ![demo](pngs/new-loss.png)
+  - F1曲线
+  - ![demo](pngs/new-F1_curve.png)
+  - PR曲线
+  - ![demo](pngs/new-PR_curve.png)
